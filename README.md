@@ -78,7 +78,7 @@ Sort trash into the right bins to learn about recycling and proper waste managem
 ## Usage
 Play each game and explore different aspects of climate change. Track your progress and see how your decisions impact the environment!
 
-![Gameplay Video](path/to/your/gameplay_video.mp4)
+![Live Demo](ClimateQuest-Games-For-Change/Climate_Quest.mp4)
 
 ## Contributing
 Contributions are welcome! If you’d like to improve the game or add new features, please fork the repository and submit a pull request.
