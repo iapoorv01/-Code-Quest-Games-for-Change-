@@ -53,7 +53,7 @@ Make investment decisions that affect sustainable development, such as planting 
 ### 11. Recycling Puzzle
 Sort trash into the right bins to learn about recycling and proper waste management.
 
-![Game Screenshot](path/to/your/game_screenshot.jpg)
+![Game Screenshot](ClimateQuest-Games-For-Change/Climate_Change.png)
 
 ## Installation
 1. Clone the repository:
