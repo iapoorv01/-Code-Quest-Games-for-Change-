@@ -3,10 +3,10 @@ import random
 import os
 import google.generativeai as genai
 import pygame
-from PIL import Image, ImageTk  # Ensure Pillow is installed
+from PIL import Image, ImageTk  
 
-# Set your API key (make sure to use your actual API key)
-os.environ["API_KEY"] = "AIzaSyBX4QAOj_iBrEPF9y2QBUNEJK4nsnq7bW0"
+
+os.environ["API_KEY"] = "Your API KEY"  #Replace with your own Api Key
 
 # Configure the AI
 genai.configure(api_key=os.environ["API_KEY"])
