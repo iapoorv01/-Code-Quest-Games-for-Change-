@@ -4,7 +4,7 @@ import os
 import time
 import google.generativeai as genai
 
-os.environ["API_KEY"] = "AIzaSyBX4QAOj_iBrEPF9y2QBUNEJK4nsnq7bW0"
+os.environ["API_KEY"] = "YOUR API KEY"  #Replace With Your Own Api Key
 
 # Configure the AI
 genai.configure(api_key=os.environ["API_KEY"])
@@ -39,7 +39,7 @@ class OceanCleanupGame:
         infoObject = pygame.display.Info()
         # Set screen size to full screen
         self.dis_width = pygame.display.Info().current_w
-        self.dis_height = pygame.display.Info().current_h# Half of the screen height
+        self.dis_height = pygame.display.Info().current_h
         self.dis = pygame.display.set_mode((self.dis_width, self.dis_height))
         # Colors
         self.yellow = (255, 255, 102)
@@ -114,7 +114,7 @@ class OceanCleanupGame:
 
     def loading_screen(self):
         loading_start_time = pygame.time.get_ticks()
-        loading_duration = 2000  # Display loading screen for 3 seconds
+        loading_duration = 2000  # Display loading screen for 2 seconds
 
         while True:
             self.dis.fill((0, 0, 0))
@@ -132,9 +132,6 @@ class OceanCleanupGame:
                     pygame.quit()
                     exit()
 
-        # i can add any other necessary actions after the loading screen here
-
-    # Small delay to simulate loading
 
     def fetch_quote(self):
         self.loading_screen()  # Show loading screen
@@ -327,7 +324,7 @@ class OceanCleanupGame:
         pygame.quit()
 
 
-# If you want to call it directly from this file
+#calling directly
 if __name__ == "__main__":
     game = OceanCleanupGame()
     game.run_game()
