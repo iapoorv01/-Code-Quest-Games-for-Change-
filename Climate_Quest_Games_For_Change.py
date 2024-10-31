@@ -61,7 +61,7 @@ thunder_sound = pygame.mixer.Sound("thunder.mp3")
 rain_sound = pygame.mixer.Sound("raaineffect.mp3")
 sound_muted = False
 
-# Fonts
+
 # Fonts
 font = pygame.font.Font("balo.otf", 72)
 fon1=pygame.font.Font("font.otf", 42)
@@ -114,7 +114,6 @@ def fade_in_stay_fade_out(text, position, fade_in_time=255, display_time=3000, f
         pygame.display.flip()
         clock.tick(FPS)
 
-# Ensure to initialize Pygame, create a screen, and define `font` before calling this function.
 
 # Snowfall class
 class Snowflake:
